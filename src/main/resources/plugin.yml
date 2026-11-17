@@ -1,0 +1,22 @@
+name: YhShop
+version: '${project.version}'
+main: id.my.yuuhaa.yhshop.YhShop
+api-version: '1.21'
+author: [YhDev]
+description: 'YhShop: Spawner & Enchants Edition - Shop GUI spawner (SmartSpawner) & buku enchant (ExcellentEnchants) via Vault economy.'
+depend: [Vault]
+softdepend: [SmartSpawner, ExcellentEnchants, Essentials, EssentialsX]
+commands:
+  yhshop:
+    description: Buka menu YhShop
+    usage: /yhshop [spawner|enchant|admin|reload]
+    aliases: [yhs, yhshop1]
+    permission: yhshop1.command.use
+    permission-message: '&cKamu tidak punya izin untuk pakai perintah ini!'
+permissions:
+  yhshop1.command.use:
+    description: Akses perintah /yhshop
+    default: true
+  yhshop1.commands.admin:
+    description: Akses Admin GUI & edit harga/entry realtime
+    default: op

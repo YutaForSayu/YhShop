@@ -1,0 +1,179 @@
+# ============================================================
+#  Daftar spawner yang dijual di shop.
+#  ID harus sesuai nama spawner di SmartSpawner (spawner_mobs.yml).
+#  Lihat daftar aslinya dengan perintah: /ss list
+#  Harga bisa diubah REALTIME lewat Admin GUI (/yhshop admin).
+#  Kosongkan 'give-command' untuk pakai template default di config.yml.
+# ============================================================
+spawners:
+  chicken:
+    display: "&fChicken Spawner"
+    tier: "&7Umum"
+    price: 500
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  sheep:
+    display: "&fSheep Spawner"
+    tier: "&7Umum"
+    price: 500
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  pig:
+    display: "&fPig Spawner"
+    tier: "&7Umum"
+    price: 600
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  cow:
+    display: "&fCow Spawner"
+    tier: "&7Umum"
+    price: 700
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  rabbit:
+    display: "&fRabbit Spawner"
+    tier: "&7Umum"
+    price: 800
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  wolf:
+    display: "&fWolf Spawner"
+    tier: "&aUncommon"
+    price: 1000
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  zombie:
+    display: "&fZombie Spawner"
+    tier: "&aUncommon"
+    price: 1200
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  skeleton:
+    display: "&fSkeleton Spawner"
+    tier: "&aUncommon"
+    price: 1200
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  spider:
+    display: "&fSpider Spawner"
+    tier: "&aUncommon"
+    price: 1300
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  slime:
+    display: "&fSlime Spawner"
+    tier: "&bRare"
+    price: 2200
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  creeper:
+    display: "&fCreeper Spawner"
+    tier: "&bRare"
+    price: 2500
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  horse:
+    display: "&fHorse Spawner"
+    tier: "&bRare"
+    price: 3000
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  snow_golem:
+    display: "&fSnow Golem Spawner"
+    tier: "&eEpic"
+    price: 4500
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  enderman:
+    display: "&fEnderman Spawner"
+    tier: "&eEpic"
+    price: 5000
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  iron_golem:
+    display: "&fIron Golem Spawner"
+    tier: "&eEpic"
+    price: 8000
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  blaze:
+    display: "&fBlaze Spawner"
+    tier: "&5Legendary"
+    price: 10000
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  wither_skeleton:
+    display: "&fWither Skeleton Spawner"
+    tier: "&5Legendary"
+    price: 12000
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  elder_guardian:
+    display: "&fElder Guardian Spawner"
+    tier: "&5Legendary"
+    price: 15000
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""
+  shulker:
+    display: "&fShulker Spawner"
+    tier: "&5Legendary"
+    price: 15000
+    amount: 1
+    icon: "SPAWNER"
+    glow: false
+    lore: []
+    give-command: ""

@@ -1,0 +1,41 @@
+# ============================================================
+#  YhShop: Spawner & Enchants Edition - config.yml
+#  Shop GUI untuk spawner (SmartSpawner) & buku enchant
+#  (ExcellentEnchants), ekonomi via Vault (Essentials).
+# ============================================================
+
+# Perintah give yang dijalankan sebagai CONSOLE saat player membeli.
+# Placeholder: %player% %id% %level% %amount%
+#   SmartSpawner      : /ss give <player> <nama-spawner> [jumlah]
+#   ExcellentEnchants : /ee book <enchant-id> <level> <player>
+give-commands:
+  spawner: "ss give %player% %id% %amount%"
+  # Kalau ExcellentEnchants-mu versi 6+ dan minta namespace,
+  # ubah jadi: "ee book excellentenchants:%id% %level% %player%"
+  enchant: "ee book %id% %level% %player%"
+
+sounds: true
+
+gui:
+  fill-item: "GRAY_STAINED_GLASS_PANE"
+  fill-name: " "
+  back-item: "ARROW"
+  back-name: "&cKembali"
+  prev-name: "&eSebelumnya"
+  next-name: "&eBerikutnya"
+  page-name: "&7Halaman %page%/%max%"
+
+# ============================================================
+# KOSEMBANGAN EKONOMI (default):
+# Server ini punya sumber uang dari quiz chat ($50-200 acak) dan
+# jual beli item via AuctionHouse / QuickShop. Harga default di
+# spawners.yml & enchants.yml dikalkulasi dari 1 quiz ~= $50-200:
+#   buku enchant umum    ~= 1 quiz        ($100-500)
+#   buku enchant langka  ~= 5-20 quiz     ($700-2.500)
+#   spawner biasa        ~= 3-10 quiz     ($500-1.500)
+#   spawner langka       ~= 20-60 quiz    ($2.500-12.000)
+#   spawner very rare    ~= 60-120 quiz   ($10.000-25.000)
+# Semua harga bisa diedit REALTIME lewat Admin GUI (/yhshop admin)
+# tanpa restart. Kalau ekonomi server berubah, sesuaikan angka di
+# spawners.yml & enchants.yml, atau pakai Admin GUI.
+# ============================================================

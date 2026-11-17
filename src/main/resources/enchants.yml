@@ -1,0 +1,112 @@
+# ============================================================
+#  Daftar buku enchant yang dijual di shop.
+#  ID = ID enchant ExcellentEnchants (tanpa namespace), contoh:
+#  ice_aspect, veinminer, silk_spawner, soulbound, decapitator.
+#  (EE v6? kalau minta namespace, ubah template di config.yml:
+#   "ee book excellentenchants:%id% %level% %player%")
+#  12 entri vanilla di bagian bawah juga via /ee book
+#  (minecraft:sharpness, dll).
+#  'level: -1' = level random (fitur EE).
+#  Harga bisa diubah REALTIME lewat Admin GUI (/yhshop admin).
+# ============================================================
+enchants:
+  # --- WEAPON ---
+  ice_aspect:        { display: "&bIce Aspect", tier: "&7Umum", price: 300, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  venom:             { display: "&bVenom", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  blindness:         { display: "&bBlindness", tier: "&7Umum", price: 400, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  confusion:         { display: "&bConfusion", tier: "&7Umum", price: 400, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  rage:              { display: "&bRage", tier: "&7Umum", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  nimble:            { display: "&bNimble", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  exhaust:           { display: "&bExhaust", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  temper:            { display: "&bTemper", tier: "&7Umum", price: 450, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  thrifty:           { display: "&bThrifty", tier: "&7Umum", price: 350, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  wisdom:            { display: "&bWisdom", tier: "&7Umum", price: 400, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  cutter:            { display: "&bCutter", tier: "&7Umum", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  cure:              { display: "&bCure", tier: "&7Umum", price: 350, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  swiper:            { display: "&aSwiper", tier: "&aUncommon", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  double_strike:     { display: "&aDouble Strike", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  vampire:           { display: "&aVampire", tier: "&aUncommon", price: 900, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  rocket:            { display: "&aRocket", tier: "&aUncommon", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  paralyze:          { display: "&aParalyze", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  withered_arrows:   { display: "&aWithered Arrows", tier: "&aUncommon", price: 900, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  infernus:          { display: "&aInfernus", tier: "&aUncommon", price: 1000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  bomber:            { display: "&aBomber", tier: "&aUncommon", price: 900, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  thunder:           { display: "&bThunder", tier: "&bRare", price: 1200, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  bane_of_netherspawn: { display: "&bBane of Netherspawn", tier: "&bRare", price: 1500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  village_defender:  { display: "&bVillage Defender", tier: "&bRare", price: 2000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  wither:            { display: "&bWither", tier: "&bRare", price: 2500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  curse_of_death:    { display: "&bCurse of Death", tier: "&bRare", price: 2000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  decapitator:       { display: "&eDecapitator", tier: "&eEpic", price: 5000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  # --- ARMOR ---
+  hardened:          { display: "&bHardened", tier: "&7Umum", price: 400, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  speedy:            { display: "&bSpeedy", tier: "&7Umum", price: 450, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  lightweight:       { display: "&bLightweight", tier: "&7Umum", price: 350, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  jumping:           { display: "&bJumping", tier: "&7Umum", price: 350, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  night_vision:      { display: "&bNight Vision", tier: "&7Umum", price: 300, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  saturation:        { display: "&bSaturation", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  regrowth:          { display: "&bRegrowth", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  rebound:           { display: "&bRebound", tier: "&7Umum", price: 450, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  flame_walker:      { display: "&bFlame Walker", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  water_breathing:   { display: "&bWater Breathing", tier: "&7Umum", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  ice_shield:        { display: "&aIce Shield", tier: "&aUncommon", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  fire_shield:       { display: "&aFire Shield", tier: "&aUncommon", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  cold_steel:        { display: "&aCold Steel", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  elemental_protection: { display: "&aElemental Protection", tier: "&aUncommon", price: 900, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  stopping_force:    { display: "&aStopping Force", tier: "&aUncommon", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  darkness_cloak:    { display: "&bDarkness Cloak", tier: "&bRare", price: 1000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  dragon_heart:      { display: "&bDragon Heart", tier: "&bRare", price: 1500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  kamikadze:         { display: "&bKamikadze", tier: "&bRare", price: 1200, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  # --- TOOL ---
+  haste:             { display: "&bHaste", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  glassbreaker:      { display: "&bGlassbreaker", tier: "&7Umum", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  tunnel:            { display: "&bTunnel", tier: "&7Umum", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  treefeller:        { display: "&aTreefeller", tier: "&aUncommon", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  replanter:         { display: "&aReplanter", tier: "&aUncommon", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  smelter:           { display: "&aSmelter", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  blast_mining:      { display: "&aBlast Mining", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  lucky_miner:       { display: "&bLucky Miner", tier: "&bRare", price: 900, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  veinminer:         { display: "&bVeinminer", tier: "&bRare", price: 1000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  telekinesis:       { display: "&bTelekinesis", tier: "&bRare", price: 1500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  silk_chest:        { display: "&eSilk Chest", tier: "&eEpic", price: 2500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  silk_spawner:      { display: "&5Silk Spawner", tier: "&5Legendary", price: 5000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  # --- BOW ---
+  hover:             { display: "&bHover", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  confusing_arrows:  { display: "&bConfusing Arrows", tier: "&7Umum", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  flare:             { display: "&bFlare", tier: "&7Umum", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  lingering:         { display: "&bLingering", tier: "&7Umum", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  poisoned_arrows:   { display: "&bPoisoned Arrows", tier: "&7Umum", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  sniper:            { display: "&aSniper", tier: "&aUncommon", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  explosive_arrows:  { display: "&aExplosive Arrows", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  electrified_arrows: { display: "&aElectrified Arrows", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  darkness_arrows:   { display: "&aDarkness Arrows", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  ghast:             { display: "&bGhast", tier: "&bRare", price: 1000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  vampiric_arrows:   { display: "&bVampiric Arrows", tier: "&bRare", price: 1100, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  dragonfire_arrows: { display: "&bDragonfire Arrows", tier: "&bRare", price: 1200, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  ender_bow:         { display: "&eEnder Bow", tier: "&eEpic", price: 1500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  # --- FISHING ---
+  seasoned_angler:   { display: "&bSeasoned Angler", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  survivalist:       { display: "&bSurvivalist", tier: "&7Umum", price: 500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  auto_reel:         { display: "&bAuto Reel", tier: "&7Umum", price: 600, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  double_catch:      { display: "&bDouble Catch", tier: "&7Umum", price: 700, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  river_master:      { display: "&aRiver Master", tier: "&aUncommon", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  curse_of_drowned:  { display: "&bCurse of Drowned", tier: "&bRare", price: 1000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  # --- UNIVERSAL ---
+  curse_of_mediocrity: { display: "&bCurse of Mediocrity", tier: "&7Umum", price: 800, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  curse_of_breaking: { display: "&aCurse of Breaking", tier: "&aUncommon", price: 1000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  curse_of_fragility: { display: "&aCurse of Fragility", tier: "&aUncommon", price: 1000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  curse_of_misfortune: { display: "&bCurse of Misfortune", tier: "&bRare", price: 1200, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  restore:           { display: "&bRestore", tier: "&bRare", price: 1500, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  soulbound:         { display: "&eSoulbound", tier: "&eEpic", price: 3000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  # --- VANILLA BONUS (via /ee book minecraft:...) ---
+  minecraft:sharpness:      { display: "&fSharpness V", tier: "&eEpic", price: 8000, level: 5, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:protection:     { display: "&fProtection IV", tier: "&bRare", price: 5000, level: 4, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:efficiency:     { display: "&fEfficiency V", tier: "&aUncommon", price: 4000, level: 5, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:unbreaking:     { display: "&fUnbreaking III", tier: "&7Umum", price: 3000, level: 3, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:fortune:        { display: "&fFortune III", tier: "&bRare", price: 6000, level: 3, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:looting:        { display: "&fLooting III", tier: "&bRare", price: 5000, level: 3, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:mending:        { display: "&5Mending", tier: "&5Legendary", price: 25000, level: 1, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:feather_falling: { display: "&fFeather Falling IV", tier: "&7Umum", price: 3500, level: 4, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:respiration:    { display: "&fRespiration III", tier: "&7Umum", price: 2500, level: 3, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:fire_aspect:    { display: "&fFire Aspect II", tier: "&aUncommon", price: 4500, level: 2, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:depth_strider:  { display: "&fDepth Strider III", tier: "&7Umum", price: 3000, level: 3, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
+  minecraft:frost_walker:   { display: "&fFrost Walker II", tier: "&7Umum", price: 3500, level: 2, icon: "ENCHANTED_BOOK", glow: true, lore: [], give-command: "" }
