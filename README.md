@@ -55,3 +55,7 @@ Saat edit lewat chat, ketik `batal` untuk membatalkan.
 Harga default mengikuti asumsi: quiz chat $50–200 + trading AuctionHouse/QuickShop.
 Kalau servermu beda skalanya, edit harga di Admin GUI (realtime) atau langsung di
 `spawners.yml` / `enchants.yml`, lalu `/yhshop reload`.
+
+## License
+
+MIT License - lihat file [LICENSE](LICENSE).
